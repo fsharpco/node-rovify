@@ -1,0 +1,26 @@
+{
+  "author": "Julian Federico",
+  "name": "node-rovify",
+  "description": "Wrapper for Rovi REST API",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://braingraze@bitbucket.org/braingraze/node-rovify.git"
+  },
+  "dependencies": {
+    "hyperquest": "~0.1.7",
+    "easy-config": "*"
+  },
+  "keywords": [
+    "rovi",
+    "music",
+    "tv",
+    "video",
+    "artists",
+    "celebrities"
+  ],
+  "engines": {
+    "node": ">=0.6.x"
+  }
+}
