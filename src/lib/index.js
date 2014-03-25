@@ -45,10 +45,15 @@ Rovi.prototype.buildUrl = function() {
 
 Rovi.prototype.request = function() {
   console.log(this.buildUrl());
-  hyperquest.get(this.buildUrl(), reqOptions, function(err, apiRes) {
-    console.log(apiRes);
-    return apiRes;
+  var res = hyperquest.get(this.buildUrl(), reqOptions, function(err, apiRes) {
+    console.log('testheyperquest');
   });
+  res.pipe(process.stdout, { end: false });
+  res.on('end', function () {
+    if (--pending === 0) server.close();
+    return process.stdout;
+  });
+
 //    if (err) {
 //      cb(err);
 //    } else {
