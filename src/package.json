@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "hyperquest": "~0.1.7",
-    "easy-config": "*"
+    "easy-config": "*",
+    "concat-stream": "^1.4.4"
   },
   "keywords": [
     "rovi",
