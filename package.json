@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Julian Federico"
+  },
+  "name": "node-rovify",
+  "description": "Wrapper for Rovi REST API",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://braingraze@bitbucket.org/braingraze/node-rovify.git"
+  },
+  "dependencies": {
+    "hyperquest": "*",
+    "easy-config": "*",
+    "concat-stream": "^1.4.4",
+		"hyperquest-timeout": "*"
+  },
+  "keywords": [
+    "rovi",
+    "music",
+    "tv",
+    "video",
+    "artists",
+    "celebrities"
+  ],
+  "engines": {
+    "node": ">=0.6.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "_id": "node-rovify@0.0.1",
+  "dist": {
+    "shasum": "dfc0e08760c07855f7fbd31ec992f4029a21a63d"
+  },
+  "_resolved": "/Users/julianfg/WebstormProjects/node-rovify/src/node-rovify-0.0.1.tgz",
+  "_from": "/Users/julianfg/WebstormProjects/node-rovify/src/node-rovify-0.0.1.tgz"
+}
